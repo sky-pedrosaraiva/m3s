@@ -74,7 +74,7 @@ export default function Home() {
       </div>
 
       <Show when={!movies.error || !movies.loading}>
-        <div class="flex justify-around py-2">
+        <div class="flex justify-around py-4">
           <div class="container grid grid-cols-5 grid-rows-3 gap-10">
             <For each={movies()}>
               {(it) => (
